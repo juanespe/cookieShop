@@ -1,0 +1,135 @@
+.mi-navbar {
+    background-color: #ffffff; /* Cambia este valor por el color que desees */
+}
+.container-fluid{
+    margin-left: 200px;
+    width: 50px; /* Ajusta el ancho del logo */
+    height: auto; /* Mantiene la proporción original */
+   
+}
+/* Estilos adicionales para los links */
+.navbar .nav-link {
+    font-size: 20px;
+    color: #000000;
+    margin-left: 200px;
+
+}
+
+.navbar .nav-link:hover {
+    color: #030303;
+    text-decoration: underline;
+}
+
+
+/* Estilos para el carrusel */
+#carouselExample {
+    max-width: 1100px; /* Ajusta el ancho máximo del carrusel */
+    width: 100%; /* Asegura que el carrusel ocupe todo el ancho disponible */
+    margin: auto; /* Centra el carrusel en la página */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que no haya desbordamiento */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.d-flex{
+    margin-left: 180px;
+    width: 400px;
+}
+.carousel-caption{
+    background-color: rgba(41, 23, 1, 0.75);
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 45px 30px;
+    text-align: left;
+    width: 400px;
+
+}
+
+#loMas{
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1100px; 
+    margin: auto; /* Centra el carrusel en la página */
+    overflow: hidden; /* Asegura que no haya desbordamiento */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#loMas .productos1 {
+    margin-top: 50px;
+ 
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Añade espacio entre los productos */
+}
+
+#loMas .producto {
+    text-align: center; /* Centra el contenido de cada producto */
+    margin: 10px; /* Espacio entre productos */
+}
+
+#loMas img {
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+}
+.producto1{
+    border-radius: 10px;
+    background-color: rgb(255, 208, 0);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 300px ;
+}
+.producto2{
+    border-radius: 10px;
+    background-color: rgb(255, 208, 0);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 300px ;
+}
+.producto3{
+    border-radius: 10px;
+    background-color: rgb(255, 208, 0);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 300px ;
+}
+.producto3 .h4{
+    margin-top: 15px;
+} 
+
+#loMas .productos2 {
+    margin-top: 50px;
+    display: flex; /* Activa Flexbox */
+    justify-content: space-evenly; /* Añade espacio entre los productos */
+}
+.producto {
+    text-align: center; /* Centra el contenido de cada producto */
+    margin: 10px; /* Espacio entre productos */
+}
+.producto4{
+    border-radius: 10px;
+    background-color: rgb(255, 208, 0);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 300px ;
+}
+.producto5{
+    border-radius: 10px;
+    background-color: rgb(255, 208, 0);
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    width: 300px ;
+}
+.producto5 .h4{
+    margin-top: 20px;
+}
+.cart{
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgb(87, 86, 83);
+    padding: 30px 30px 30px 30px;
+    text-align: left;
+    width: 300px ;
+}
+
+
+
